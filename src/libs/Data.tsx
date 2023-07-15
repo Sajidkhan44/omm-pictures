@@ -1,4 +1,5 @@
-export const bannerImages = [{
+export const bannerImages = [
+    {
     src:"/b2.jpg"
 }, {
     src:"/b1.jpg"
