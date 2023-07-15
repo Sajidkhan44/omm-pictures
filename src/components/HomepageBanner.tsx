@@ -11,10 +11,10 @@ export default function HomepageBanner() {
   return (
    <div className=" ">
     <Swiper
-    // autoplay={{
-    //   delay: 2500,
-    //   disableOnInteraction: false,
-    // }}
+    autoplay={{
+      delay: 2500,
+      disableOnInteraction: false,
+    }}
     className='w-[100vw] lg:h-[100vh] h-[80vh]'
     modules={[Autoplay]}
       slidesPerView={1}
