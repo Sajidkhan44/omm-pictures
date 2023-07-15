@@ -114,7 +114,7 @@ export default function Navbar() {
                 </Transition>
               </Popover>
             ) : (
-              <Link href={link.href}>{link.link}</Link>
+              <Link href={link.href && link.href || ""}>{link.link}</Link>
             )
           )}
           <Link

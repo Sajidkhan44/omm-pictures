@@ -32,7 +32,7 @@ export default function Footer() {
               <ul className=" text-slate-300 text-md">
                 {Links.filter((item, index) => index !== 0).map((link) => (
                   <li className="">
-                    <Link href={link.href}>{link.link}</Link>
+                    <Link href={link.href && link.href || ""}>{link.link}</Link>
                   </li>
                 ))}
               </ul>
