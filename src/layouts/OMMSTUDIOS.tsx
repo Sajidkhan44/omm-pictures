@@ -1,8 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-
-export default function OMMSTUDIOS({children}) {
+export interface props {
+  children?: React.ReactNode; 
+}
+export default function OMMSTUDIOS({children}:props) {
+  
   return (
     <div className="">
         <Navbar />
