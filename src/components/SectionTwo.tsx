@@ -12,7 +12,7 @@ export default function SectionTwo() {
         <div className=" grid grid-cols-2 gap-6 mt-12 w-[100%] mx-auto ">
           {
               work.map(type => (
-                <div className="max-w-full group overflow-hidden  max-h-[1000px] relative">
+                <div key={type.title} className="max-w-full group overflow-hidden  max-h-[1000px] relative">
                   <img src={type.src} alt="" className=" group-hover:scale-[105%] scale-100 duration-1000 ease-in-out w-full h-full object-cover " />
                   <div className=" absolute top-0 px-6 py-12 flex items-end right-0 bottom-0 left-0 bg-gradient-to-t from-black to-transparent">
                     <div className=" space-y-2 ">

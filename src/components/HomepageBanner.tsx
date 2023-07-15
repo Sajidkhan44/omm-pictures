@@ -21,7 +21,7 @@ export default function HomepageBanner() {
     >
       {
         bannerImages.map(image => (
-            <SwiperSlide className=' w-full h-full relative'>
+            <SwiperSlide key={image.src} className=' w-full h-full relative'>
                 <img src={image.src} alt="" className="w-full h-full object-cover" />
                 <div className=" absolute top-0 p-8 flex items-end justify-center right-0 left-0 bottom-0 bg-gradient-to-t from-black to-transparent ">
                   <div className=" text-white space-y-4 md:w-[60%] text-center">

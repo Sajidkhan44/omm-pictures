@@ -85,7 +85,7 @@ export default function Navbar() {
         <div className=" flex items-center w-[45%] text-white justify-between">
           {Links.map((link) =>
             link.subChildren && link.subChildren.length ? (
-              <Popover className={` relative `}>
+              <Popover key={link.link} className={` relative `}>
                 <Popover.Button className={`outline-none space-x-2`}>
                   <span className="">{link.link} </span>{" "}
                   <FontAwesomeIcon className="text-sm" icon={faChevronDown} />{" "}

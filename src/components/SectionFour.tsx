@@ -30,10 +30,10 @@ export default function SectionFour() {
             <div className=" overflow-hidden  gap-4 grid grid-cols-3 mt-12 ">
             {
                 grid.map((image,index )=> (
-                    <div className={` flex flex-col columns gap-4 w-full col-span-1 ${index % 2 ? "even" : "odd"} `}>
+                    <div key={image.col} className={` flex flex-col columns gap-4 w-full col-span-1 ${index % 2 ? "even" : "odd"} `}>
                     {
                         image.col.map((img,imageIndex) => (
-                            <div className={`max-w-full h-[500px] ${img.scale && img.scale ? "scale-img " : ""}`}>
+                            <div key={img.src} className={`max-w-full h-[500px] ${img.scale && img.scale ? "scale-img " : ""}`}>
                                 <img src={img.src} alt="" className=" w-full h-full object-cover" />
                             </div>
                         ))
