@@ -196,7 +196,7 @@ export const fashion = [
         src:"/website/Model/m-4.jpg",
     },
     {
-        src:"/website/Fashion/f-4.png",
+        src:"/website/Fashion/f-4.jpg",
     },
     {
         src:"/website/Model/m-5.jpg",

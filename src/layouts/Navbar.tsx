@@ -64,17 +64,12 @@ export default function Navbar() {
     >
       <div className=" lg:w-[90%] w-full mx-auto px-8 py-2 flex items-center justify-between">
         <Link href="/" className=" logo">
-          <h1 className=" font-bold md:text-5xl text-white text-3xl flex items-center justify-center">
             <img
-              src="/icon.png"
+              src="/omm pictures.png"
               alt=""
-              className="bg-white rounded-full  w-[35px] h-[35px]"
+              className="bg-white rounded-full  max-w-[120px] max-h-[120px]"
             />{" "}
-            <span className="">MM</span>
-          </h1>
-          <p className=" font-medium border-t text-lg text-slate-200 pl-[37px]">
-            PICTURES
-          </p>
+
         </Link>
         <div className={" lg:flex hidden items-center w-[45%] text-white justify-between"}>
           {Links.map((link) =>
