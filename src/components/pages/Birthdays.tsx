@@ -31,7 +31,9 @@ export default function Birthdays() {
       </div>
       <div className="py-[100px]  space-y-12 lg:w-[90%] px-8 mx-auto ">
         <div className=" space-y-2 text-white  text-center">
-          <h1 className={` font-semibold md:text-5xl  text-3xl uppercase ${dancing.className}`}>
+          <h1
+            className={` font-semibold md:text-5xl  text-3xl uppercase ${dancing.className}`}
+          >
             BABY
           </h1>
         </div>
@@ -121,7 +123,9 @@ export default function Birthdays() {
         </div>
         <div className=" py-[12]">
           <div className=" space-y-2 text-white  text-center">
-            <h1 className={` ${dancing.className} font-semibold md:text-5xl text-3xl uppercase`}>
+            <h1
+              className={` ${dancing.className} font-semibold md:text-5xl text-3xl uppercase`}
+            >
               Birthday and babyshoot STILL'S
             </h1>
           </div>

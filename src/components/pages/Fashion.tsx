@@ -1,6 +1,6 @@
-import { babyshoot, fashion, work } from '@/libs/Data'
-import { dancing } from '@/pages'
-import React from 'react'
+import { babyshoot, fashion, work } from "@/libs/Data";
+import { dancing } from "@/pages";
+import React from "react";
 
 export default function Fashion() {
   return (
@@ -31,49 +31,73 @@ export default function Fashion() {
       </div>
       <div className="py-[100px]  space-y-12 lg:w-[90%] px-8 mx-auto ">
         <div className=" space-y-2 text-white  text-center">
-          <h1 className={`${dancing.className} font-semibold md:text-5xl text-3xl uppercase`}>FASHION & modeling</h1>
+          <h1
+            className={`${dancing.className} font-semibold md:text-5xl text-3xl uppercase`}
+          >
+            FASHION & modeling
+          </h1>
         </div>
         <div className=" w-full grid lg:grid-cols-2 grid-cols-1 gap-6 md:py-12">
           <div className=" col-span-1  flex  justify-center">
             <div className=" space-y-4">
               <h1 className=" text-3xl font-medium text-white">
-              "Elegance Unveiled: Fashion and Modeling Photography at its Finest"
+                "Elegance Unveiled: Fashion and Modeling Photography at its
+                Finest"
               </h1>
               <p className=" text-md font-medium text-gray-300 text-justify">
-              Welcome to "Elegance Unveiled," where we specialize in fashion and modeling photography that goes beyond the ordinary and embraces the essence of artistry and sophistication. Our talented team of photographers is dedicated to capturing the beauty, grace, and individuality of fashion designs and the captivating charisma of models.              </p>
-              <p className=" text-md font-medium text-gray-300 text-justify">
-                <span className=" text-white text-xl inline-block">
-                Celebrating Fashion as an Art:
-                </span>{" "}
-                 "Elegance Unveiled" views fashion as an expressive form of art, and our photography reflects this belief. We collaborate closely with designers and stylists to portray the true vision and artistry behind their creations, elevating fashion photography to a captivating visual narrative.
+                Welcome to "Elegance Unveiled," where we specialize in fashion
+                and modeling photography that goes beyond the ordinary and
+                embraces the essence of artistry and sophistication. Our
+                talented team of photographers is dedicated to capturing the
+                beauty, grace, and individuality of fashion designs and the
+                captivating charisma of models.{" "}
               </p>
               <p className=" text-md font-medium text-gray-300 text-justify">
                 <span className=" text-white text-xl inline-block">
-                Enigmatic and Striking:
+                  Celebrating Fashion as an Art:
                 </span>{" "}
-                 Our photography style is enigmatic and striking, capturing the essence of fashion with dynamic compositions, bold contrasts, and creative angles. We aim to evoke emotions and draw the audience into the story of each image.
+                "Elegance Unveiled" views fashion as an expressive form of art,
+                and our photography reflects this belief. We collaborate closely
+                with designers and stylists to portray the true vision and
+                artistry behind their creations, elevating fashion photography
+                to a captivating visual narrative.
               </p>
               <p className=" text-md font-medium text-gray-300 text-justify">
                 <span className=" text-white text-xl inline-block">
-                Models as Masterpieces:
+                  Enigmatic and Striking:
                 </span>{" "}
-                 We believe that models are masterpieces of beauty and expression, and our photography celebrates their uniqueness and individuality. We empower models to showcase their true selves, capturing the charisma and confidence that make them shine.
-                 
+                Our photography style is enigmatic and striking, capturing the
+                essence of fashion with dynamic compositions, bold contrasts,
+                and creative angles. We aim to evoke emotions and draw the
+                audience into the story of each image.
               </p>
               <p className=" text-md font-medium text-gray-300 text-justify">
                 <span className=" text-white text-xl inline-block">
-                Versatility in Fashion Styles:
+                  Models as Masterpieces:
                 </span>{" "}
-                 "Elegance Unveiled" embraces a wide range of fashion styles, from high-end couture to street fashion and everything in between. Our photographers adapt their approach to complement the specific aesthetics and vision of each project.
+                We believe that models are masterpieces of beauty and
+                expression, and our photography celebrates their uniqueness and
+                individuality. We empower models to showcase their true selves,
+                capturing the charisma and confidence that make them shine.
               </p>
               <p className=" text-md font-medium text-gray-300 text-justify">
                 <span className=" text-white text-xl inline-block">
-                Unifying Creativity:
+                  Versatility in Fashion Styles:
                 </span>{" "}
-                 Fashion and modeling photography require a cohesive and unified creative effort. At "Elegance Unveiled," we collaborate closely with designers, stylists, makeup artists, and models to create a harmonious synergy that brings the fashion story to life.
-                 
+                "Elegance Unveiled" embraces a wide range of fashion styles,
+                from high-end couture to street fashion and everything in
+                between. Our photographers adapt their approach to complement
+                the specific aesthetics and vision of each project.
               </p>
-              
+              <p className=" text-md font-medium text-gray-300 text-justify">
+                <span className=" text-white text-xl inline-block">
+                  Unifying Creativity:
+                </span>{" "}
+                Fashion and modeling photography require a cohesive and unified
+                creative effort. At "Elegance Unveiled," we collaborate closely
+                with designers, stylists, makeup artists, and models to create a
+                harmonious synergy that brings the fashion story to life.
+              </p>
             </div>
           </div>
           <div className="max-w-full max-h-full col-span-1 relative rounded-[20px] overflow-hidden">
@@ -83,7 +107,9 @@ export default function Fashion() {
         </div>
         <div className=" py-[12]">
           <div className=" space-y-2 text-white  text-center">
-            <h1 className={` ${dancing.className} font-semibold md:text-5xl text-3xl uppercase`}>
+            <h1
+              className={` ${dancing.className} font-semibold md:text-5xl text-3xl uppercase`}
+            >
               Modelling STILL'S
             </h1>
           </div>
@@ -97,5 +123,5 @@ export default function Fashion() {
         </div>
       </div>
     </div>
-  )
+  );
 }
