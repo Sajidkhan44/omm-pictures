@@ -67,7 +67,7 @@ export default function Navbar() {
             <img
               src="/omm pictures.png"
               alt=""
-              className="bg-white rounded-full  max-w-[120px] max-h-[120px]"
+              className="bg-white rounded-full  max-w-[60px] max-h-[60px]"
             />{" "}
 
         </Link>
@@ -114,13 +114,13 @@ export default function Navbar() {
             +91-7022766423
           </Link>
         </div>
-        <div className="lg:hidden flex items-center min-w-[max-content] min-h-[max-content] gap-4">
+        <div className="lg:hidden   flex items-center justify-center gap-4">
          
 
-            <div onClick={() => setShowSidebar(!showSidebar)} className=" flex flex-col gap-2 p-4 bg-white rounded-full">
-              <div className={`w-[30px] transition-all duration-300 ease-linear ${showSidebar ? " rotate-45 translate-y-2.5 " : " "} h-[3px] bg-black `}></div>
-              <div className={`w-[30px] transition-all duration-300 ease-linear ${showSidebar ? " scale-0 " : " "} h-[3px] bg-black `}></div>
-              <div className={`w-[30px] transition-all duration-300 ease-linear ${showSidebar ? " -rotate-45 -translate-y-3 " : " "} h-[3px] bg-black `}></div>
+            <div onClick={() => setShowSidebar(!showSidebar)} className=" flex flex-col items-center justify-center gap-[2px]  min-h-[40px] min-w-[40px] max-h-[40px] max-w-[40px] bg-white rounded-full">
+              <div className={`w-[20px] transition-all duration-300 ease-linear ${showSidebar ? " rotate-45 translate-y-1.5 " : " "} h-[3px] bg-black `}></div>
+              <div className={`w-[20px] transition-all duration-300 ease-linear ${showSidebar ? " scale-0 " : " "} h-[3px] bg-black `}></div>
+              <div className={`w-[20px] transition-all duration-300 ease-linear ${showSidebar ? " -rotate-45 -translate-y-[5px] " : " "} h-[3px] bg-black `}></div>
             </div>
 
         </div>
@@ -132,11 +132,11 @@ export default function Navbar() {
               <div key={link.link} className={` relative flex flex-col items-center `}>
                 <button onClick={() => setShowDropdown(!showDropdown)} className={`  md:text-4xl text-xl gap-1 w-[max-content] text-center flex items-center font-semibold justify-center uppercase space-x-2`}>
                   <span className="">{link.link} </span>{" "}
-                  <FontAwesomeIcon className="md:text-3xl text-xl font-semibold" icon={faChevronDown} />{" "}
+                  <FontAwesomeIcon className="md:text-3xl text-xl f" icon={faChevronDown} />{" "}
                 </button>
 
 
-                    <div className={`  rounded-lg bg-black text-white font-light md:text-3xl text-xl text-center  space-y-4 dropdown ${showDropdown ? " show py-4" : " "}`}>
+                    <div className={`  rounded-lg bg-black text-white font-light lg:text-3xl md:text-2xl text-xl text-center  space-y-4 dropdown ${showDropdown ? " show py-4" : " "}`}>
                       {link.subChildren.map((child) => (
                         <Link
                           className=" hover:underline-offset-1 hover:underline block"

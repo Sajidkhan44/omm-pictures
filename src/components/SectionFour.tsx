@@ -1,4 +1,5 @@
 import { grid } from '@/libs/Data'
+import { dancing } from '@/pages'
 
 
 import { gsap } from 'gsap'
@@ -23,8 +24,8 @@ export default function SectionFour() {
   return (
     <div className=" min-h-[100vh] grid-class py-[100px]  relative  px-8 lg:w-[90%] w-full mx-auto ">
         <div className=" space-y-2 text-white w-full text-center">
-            <h1 className=" font-semibold text-5xl">GALLERY</h1>
-            <p className=" font-medium md:text-2xl text-xl">Welcome to the OMM Pictures Gallery, where we proudly present a curated collection of captivating photographs that embody the essence of our artistic vision.</p>
+            <h1 className={` font-semibold md:text-5xl ${dancing.className} text-3xl`}>GALLERY</h1>
+            <p className=" font-medium md:text-2xl text-md">Welcome to the OMM Pictures Gallery, where we proudly present a curated collection of captivating photographs that embody the essence of our artistic vision.</p>
         </div>
         <div className=" absolute top-0  py-12 flex items-end right-0 bottom-0 left-0 bg-gradient-to-t from-black via-black to-transparent"></div>
             <div className=" overflow-hidden  gap-4 grid lg:grid-cols-3 grid-cols-1 mt-12 ">

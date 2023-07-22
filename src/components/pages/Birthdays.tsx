@@ -1,4 +1,5 @@
 import { babyshoot, work } from "@/libs/Data";
+import { dancing } from "@/pages";
 import React from "react";
 
 export default function Birthdays() {
@@ -6,7 +7,7 @@ export default function Birthdays() {
     <div className="">
       <div className=" relative w-[100vw] lg:h-[100vh] h-[80vh]">
         <img
-          src={`/website/babyshoot/b-7.jpg`}
+          src={`/website/Babyshoot/b-7.jpg`}
           alt=""
           className=" w-full h-full object-cover"
         />
@@ -30,7 +31,7 @@ export default function Birthdays() {
       </div>
       <div className="py-[100px]  space-y-12 lg:w-[90%] px-8 mx-auto ">
         <div className=" space-y-2 text-white  text-center">
-          <h1 className=" font-semibold md:text-5xl text-3xl uppercase">
+          <h1 className={` font-semibold md:text-5xl  text-3xl uppercase ${dancing.className}`}>
             BABY
           </h1>
         </div>
@@ -120,7 +121,7 @@ export default function Birthdays() {
         </div>
         <div className=" py-[12]">
           <div className=" space-y-2 text-white  text-center">
-            <h1 className=" font-semibold md:text-5xl text-3xl uppercase">
+            <h1 className={` ${dancing.className} font-semibold md:text-5xl text-3xl uppercase`}>
               Birthday and babyshoot STILL'S
             </h1>
           </div>

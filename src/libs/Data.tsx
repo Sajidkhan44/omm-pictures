@@ -49,6 +49,26 @@ export const grid=[
     {
         col:[
             {
+                src:"/website/Maternity/m-1.jpg",
+            },
+            {
+                src:"/website/Maternity/w-2.jpg",
+            },
+            {
+                src:"/website/Maternity/w-3.jpg",
+            },
+            {
+                src:"/website/Maternity/w-4.jpg",
+            },
+            {
+                src:"/website/Maternity/w-5.jpg",
+            },
+    
+        ],
+    },
+    {
+        col:[
+            {
                 src:"/website/Babyshoot/b-1.jpg",
             },
             {
@@ -87,26 +107,7 @@ export const grid=[
     
         ],
     },
-    {
-        col:[
-            {
-                src:"/website/maternity/m-1.jpg",
-            },
-            {
-                src:"/website/maternity/w-2.jpg",
-            },
-            {
-                src:"/website/maternity/w-3.jpg",
-            },
-            {
-                src:"/website/maternity/w-4.jpg",
-            },
-            {
-                src:"/website/maternity/w-5.jpg",
-            },
-    
-        ],
-    },
+   
     
 ]
 

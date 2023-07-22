@@ -5,14 +5,11 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div className="w-full  ">
-      <div className=" lg:w-[90%] w-full px-8 mx-auto py-[50px] ">
+      <div className=" lg:w-[90%] w-full px-8 mx-auto md:py-[50px] ">
         <div className=" grid md:grid-cols-2 grid-cols-1 gap-5 pb-12 border-b border-slate-700 ">
           <div className="  col-span-1 space-y-3 md:block flex items-center justify-center flex-col ">
             <div className=" w-[max-content] ">
-              <h1 className=" font-bold md:text-5xl text-white text-3xl flex items-center justify-center">
-                <img src="/icon.png" alt="" className="bg-white rounded-full  w-[35px] h-[35px]" /> <span className="">MM</span>
-              </h1>
-              <p className=" font-medium  border-t text-lg text-slate-200 pl-[37px]">PICTURES</p>
+              <img src="/omm pictures.png" alt="" className=" w-[150px] h-[150px]" />
             </div>
             <p className=" font-medium text-sm md:text-start text-center text-slate-300">Photographers & videographers capturing the world around us.</p>
           </div>
