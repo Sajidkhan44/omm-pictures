@@ -2,7 +2,7 @@ import React from 'react';
 import { default as NextHead } from 'next/head';
 
 
-export default function Head(props) {
+export default function Head(props:any) {
   const { pageTitle, description, url } = props;
   return (
     <NextHead>

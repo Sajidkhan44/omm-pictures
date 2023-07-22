@@ -5,7 +5,7 @@ import Head from './Head';
 export interface props {
   children?: React.ReactNode; 
 }
-export default function OMMSTUDIOS({children, seo}) {
+export default function OMMSTUDIOS({children, seo}:props) {
   return (
     <div className="">
       {
