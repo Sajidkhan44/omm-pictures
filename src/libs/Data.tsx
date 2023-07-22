@@ -8,23 +8,39 @@ export const bannerImages = [
 export const work = [
     {
         title:"WEDDING PHOTOGRAPHY",
-        src:"/marriage.jpg",
-        description:"OMM Studios is a reputable photography studio that specializes in capturing the joy, significance, and cherished moments of naming ceremonies. With their expertise, creativity, and attention to detail, OMM Studios ensures that every important aspect of your naming ceremony is beautifully documented, preserving the essence of this special occasion for a lifetime."
+        href:"/wedding",
+        src:"/website/Wedding/w-1.jpg",
+        description:"OMM Pictures is a reputable photography studio that specializes in capturing the joy, significance, and cherished moments of naming ceremonies. With their expertise, creativity, and attention to detail, OMM Pictures ensures that every important aspect of your naming ceremony is beautifully documented, preserving the essence of this special occasion for a lifetime."
     },
     {
         title:"ENGAGEMENT PHOTOGRAPHY",
-        src:"/engage.jpg",
-        description:"OMM Studios specializes in engagement photography, creating captivating images that celebrate the love and excitement of this pre-wedding milestone. With their personalized approach, they work closely with couples to craft a session that reflects their personalities and love story. Whether it's a romantic outdoor setting or a playful urban backdrop, their photographers skillfully capture candid and posed moments that showcase the couple's connection. OMM Studios' commitment to professionalism and attention to detail ensures that your engagement photographs become treasured memories of this special time in your journey together."
+        href:"/wedding",
+        src:"/website/Prewedding/w-1.jpg",
+        description:"OMM Pictures specializes in engagement photography, creating captivating images that celebrate the love and excitement of this pre-wedding milestone. With their personalized approach, they work closely with couples to craft a session that reflects their personalities and love story. Whether it's a romantic outdoor setting or a playful urban backdrop, their photographers skillfully capture candid and posed moments that showcase the couple's connection. OMM Pictures' commitment to professionalism and attention to detail ensures that your engagement photographs become treasured memories of this special time in your journey together."
     },
     {
-        title:"FAMILY FUNTIONS PHOTOGRAPHY",
-        src:"/family.jpg",
-        description:"OMM Studios understands the significance and cultural nuances of naming ceremonies, and they excel in capturing the joy and reverence of these special occasions. With their sensitivity and respect for diverse traditions, they document the rituals, emotions, and cherished moments that unfold during the naming ceremony. OMM Studios' photographers pay meticulous attention to details, ensuring that every element, from the decor to the meaningful symbols, is beautifully preserved. Their aim is to create a collection of photographs that encapsulate the love, blessings, and significance of the naming ceremony, allowing you to relive the joy for years to come."
+        title:"Maternity",
+        href:"/maternity",
+        src:"/website/Maternity/m-1.jpg",
+        description:"At OMM Pictures, we specialize in maternity photography that celebrates the miraculous journey of motherhood. Pregnancy is a unique and transformative time in a woman's life, and we believe in preserving these precious moments through our artistry and expertise."
     },
     {
-        title:"BABY NAMING CEREMANY PHOTOGRAPHY",
-        src:"/naming.jpg",
-        description:"OMM Studios appreciates the importance of family functions and the memories they create. With their expertise in family photography, they capture the warmth, connections, and celebrations that unfold during these special events. Whether it's a birthday party, anniversary gathering, or a simple reunion, their photographers skillfully document the emotions, interactions, and special moments shared among family members. OMM Studios' attention to detail and commitment to professionalism ensure that each photograph reflects the unique essence and significance of your family function, preserving memories that will be cherished for a lifetime."
+        title:"Birthdays and BABYSHOOT ",
+        href:"/birthday",
+        src:"/website/Babyshoot/b-1.jpg",
+        description:"At OMM Pictures, we specialize in birthday photography that immortalizes the joy and excitement of these special milestones in your life. Whether it's a child's first birthday, a sweet sixteen celebration, or a milestone year for an adult, our expert photographers are dedicated to preserving the happiness and love that surround your special day."
+    },
+    {
+        title:"Fashion",
+        href:"/fashion-model",
+        src:"/website/Fashion/f-1.jpg",
+        description:"At OMM Pictures, we specialize in fashion photography that goes beyond merely showcasing clothing and accessories. Our expert photographers are passionate about transforming fashion into a captivating visual art form. Whether it's high-end couture, street fashion, or editorial concepts, we aim to create stunning imagery that embodies style, elegance, and artistry."
+    },
+    {
+        title:"Model",
+        href:"/fashion-model",
+        src:"/website/Model/m-1.jpg",
+        description:"At OMM Pictures, we specialize in model photography that celebrates the beauty, confidence, and individuality of every model we work with. Our experienced photographers are dedicated to creating stunning and captivating images that showcase the unique essence and personality of each model."
     },
     
 ]
@@ -33,19 +49,19 @@ export const grid=[
     {
         col:[
             {
-                src:"/wd-1.jpg",
+                src:"/website/Babyshoot/b-1.jpg",
             },
             {
-                src:"/wd-2.jpg",
+                src:"/website/Babyshoot/b-2.jpg",
             },
             {
-                src:"/wd-3.jpg",
+                src:"/website/Babyshoot/b-3.jpg",
             },
             {
-                src:"/wd-4.jpg",
+                src:"/website/Babyshoot/b-4.jpg",
             },
             {
-                src:"/wd-5.jpg",
+                src:"/website/Babyshoot/b-6.jpg",
             },
     
         ],
@@ -53,20 +69,20 @@ export const grid=[
     {
         col:[
             {
-                src:"/en-1.jpg",
+                src:"/website/Prewedding/w-1.jpg",
             },
             {
-                src:"/en-2.jpg",
+                src:"/website/Prewedding/w-2.jpg",
             },
             {
-                src:"/en-3.jpg",
+                src:"/website/Prewedding/w-3.jpg",
                 scale:true
             },
             {
-                src:"/en-4.jpg",
+                src:"/website/Prewedding/w-4.jpg",
             },
             {
-                src:"/en-5.jpg",
+                src:"/website/Prewedding/w-5.jpg",
             },
     
         ],
@@ -74,22 +90,300 @@ export const grid=[
     {
         col:[
             {
-                src:"/fm-1.jpg",
+                src:"/website/maternity/m-1.jpg",
             },
             {
-                src:"/fm-2.jpg",
+                src:"/website/maternity/w-2.jpg",
             },
             {
-                src:"/fm-3.jpg",
+                src:"/website/maternity/w-3.jpg",
             },
             {
-                src:"/fm-4.jpg",
+                src:"/website/maternity/w-4.jpg",
             },
             {
-                src:"/fm-5.jpg",
+                src:"/website/maternity/w-5.jpg",
             },
     
         ],
     },
     
+]
+
+export const weddingStills = [
+    {
+        src:"/website/Wedding/w-1.jpg",
+    },
+    {
+        src:"/website/Wedding/w-2.jpg",
+    },
+    {
+        src:"/website/Wedding/w-3.jpg",
+    },
+    {
+        src:"/website/Wedding/w-4.jpg",
+    },
+    {
+        src:"/website/Wedding/w-6.jpg",
+    },
+    {
+        src:"/website/Wedding/w-5.jpg",
+    },
+
+]
+
+export const maternity = [
+    {
+        src:"/website/Maternity/m-1.jpg",
+    },
+    {
+        src:"/website/Maternity/w-2.jpg",
+    },
+    {
+        src:"/website/Maternity/w-3.jpg",
+    },
+    {
+        src:"/website/Maternity/w-4.jpg",
+    },
+    {
+        src:"/website/Maternity/w-6.jpg",
+    },
+    {
+        src:"/website/Maternity/w-5.jpg",
+    },
+
+]
+
+export const babyshoot = [
+    {
+        src:"/website/Babyshoot/b-14.jpg",
+    },
+    {
+        src:"/website/Babyshoot/b-9.jpg",
+    },
+    {
+        src:"/website/Babyshoot/b-10.jpg",
+    },
+    {
+        src:"/website/Babyshoot/b-11.jpg",
+    },
+    {
+        src:"/website/Babyshoot/b-12.jpg",
+    },
+    {
+        src:"/website/Babyshoot/b-13.jpg",
+    },
+
+]
+
+export const fashion = [
+    {
+        src:"/website/Fashion/f-1.jpg",
+    },
+    {
+        src:"/website/Model/m-2.jpg",
+    },
+    {
+        src:"/website/Fashion/f-2.jpg",
+    },
+    {
+        src:"/website/Model/m-8.jpg",
+    },
+    {
+        src:"/website/Fashion/f-3.jpg",
+    },
+    {
+        src:"/website/Model/m-4.jpg",
+    },
+    {
+        src:"/website/Fashion/f-4.png",
+    },
+    {
+        src:"/website/Model/m-5.jpg",
+    },
+    {
+        src:"/website/Model/m-9.jpg",
+    },
+    {
+        src:"/website/Model/m-10.jpg",
+    },
+
+]
+
+export const gallery = [
+    {
+        src:"/website/gallery/g-41.jpg",
+    },
+    {
+        src:"/website/gallery/g-42.jpg",
+    },
+    {
+        src:"/website/gallery/g-43.jpg",
+    },
+    {
+        src:"/website/gallery/g-44.jpg",
+    },
+    {
+        src:"/website/gallery/g-45.jpg",
+    },
+    {
+        src:"/website/gallery/g-46.jpg",
+    },
+    {
+        src:"/website/gallery/g-47.jpg",
+    },
+    {
+        src:"/website/gallery/g-48.jpg",
+    },
+    {
+        src:"/website/gallery/g-49.jpg",
+    },
+    {
+        src:"/website/gallery/g-50.jpg",
+    },
+    {
+        src:"/website/gallery/g-51.jpg",
+    },
+    {
+        src:"/website/gallery/g-52.jpg",
+    },
+    {
+        src:"/website/gallery/g-53.jpg",
+    },
+    {
+        src:"/website/gallery/g-54.jpg",
+    },
+    {
+        src:"/website/gallery/g-55.jpg",
+    },
+    {
+        src:"/website/gallery/g-56.jpg",
+    },
+    {
+        src:"/website/gallery/g-57.jpg",
+    },
+    {
+        src:"/website/gallery/g-58.jpg",
+    },
+    {
+        src:"/website/gallery/g-59.jpg",
+    },
+    {
+        src:"/website/gallery/g-16.jpg",
+    },
+    {
+        src:"/website/gallery/g-17.jpg",
+    },
+    {
+        src:"/website/gallery/g-18.jpg",
+    },
+    {
+        src:"/website/gallery/g-19.jpg",
+    },
+    {
+        src:"/website/gallery/g-20.jpg",
+    },
+    {
+        src:"/website/gallery/g-21.jpg",
+    },
+    {
+        src:"/website/gallery/g-22.jpg",
+    },
+    {
+        src:"/website/gallery/g-23.jpg",
+    },
+    {
+        src:"/website/gallery/g-24.jpg",
+    },
+    {
+        src:"/website/gallery/g-25.jpg",
+    },
+    {
+        src:"/website/gallery/g-26.jpg",
+    },
+    {
+        src:"/website/gallery/g-27.jpg",
+    },
+    {
+        src:"/website/gallery/g-28.jpg",
+    },
+    {
+        src:"/website/gallery/g-1.jpg",
+    },
+    {
+        src:"/website/gallery/g-2.jpg",
+    },
+    {
+        src:"/website/gallery/g-3.jpg",
+    },
+    {
+        src:"/website/gallery/g-4.jpg",
+    },
+    {
+        src:"/website/gallery/g-5.jpg",
+    },
+    {
+        src:"/website/gallery/g-6.jpg",
+    },
+    {
+        src:"/website/gallery/g-7.jpg",
+    },
+    {
+        src:"/website/gallery/g-8.jpg",
+    },
+    {
+        src:"/website/gallery/g-9.jpg",
+    },
+    {
+        src:"/website/gallery/g-10.jpg",
+    },
+    {
+        src:"/website/gallery/g-11.jpg",
+    },
+    {
+        src:"/website/gallery/g-12.jpg",
+    },
+    {
+        src:"/website/gallery/g-13.jpg",
+    },
+    {
+        src:"/website/gallery/g-14.jpg",
+    },
+    {
+        src:"/website/gallery/g-15.jpg",
+    },
+    {
+        src:"/website/gallery/g-29.jpg",
+    },
+    {
+        src:"/website/gallery/g-30.jpg",
+    },
+    {
+        src:"/website/gallery/g-31.jpg",
+    },
+    {
+        src:"/website/gallery/g-32.jpg",
+    },
+    {
+        src:"/website/gallery/g-34.jpg",
+    },
+    {
+        src:"/website/gallery/g-35.jpg",
+    },
+    {
+        src:"/website/gallery/g-36.jpg",
+    },
+    {
+        src:"/website/gallery/g-37.jpg",
+    },
+    {
+        src:"/website/gallery/g-38.jpg",
+    },
+    {
+        src:"/website/gallery/g-39.jpg",
+    },
+    {
+        src:"/website/gallery/g-40.jpg",
+    },
+   
 ]
