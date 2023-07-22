@@ -1,4 +1,5 @@
 import { weddingStills, work } from '@/libs/Data'
+import { dancing } from '@/pages'
 import React from 'react'
 
 export default function Wedding() {
