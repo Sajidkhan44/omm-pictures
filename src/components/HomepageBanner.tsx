@@ -11,22 +11,22 @@ import { gsap } from "gsap";
 export default function HomepageBanner() {
   useEffect(() => {
     gsap.fromTo(
-      '.small-heading',
+      ".small-heading",
       { y: "20px", transformOrigin: "left", opacity: 0 },
       { y: "0px", duration: 1, opacity: 1 } as gsap.AnimationVars // Use type assertion here
     );
     gsap.fromTo(
-      '.big-heading',
+      ".big-heading",
       { y: "20px", transformOrigin: "left", opacity: 0 },
       { y: "0px", duration: 1, opacity: 1 } as gsap.AnimationVars // Use type assertion here
     );
     gsap.fromTo(
-      '.description',
+      ".description",
       { y: "20px", transformOrigin: "left", opacity: 0 },
       { y: "0px", duration: 1, opacity: 1 } as gsap.AnimationVars // Use type assertion here
     );
   }, []);
-  
+
   return (
     <div className=" ">
       <Swiper
