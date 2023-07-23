@@ -1,7 +1,13 @@
 import { gallery, weddingStills } from "@/libs/Data";
-import React from "react";
+import { gsap } from "gsap";
+import React, { useEffect } from "react";
 
 export default function Gallery() {
+  useEffect(() => {
+    gsap.fromTo(".small-heading", { y:"20px", transformOrigin:"left", opacity:0 }, { y:"0px", duration:1,opacity:1 })
+    gsap.fromTo(".big-heading", { y:"20px", transformOrigin:"left", opacity:0 }, { y:"0px", duration:1,opacity:1 }, "<50%")
+    gsap.fromTo(".description", { y:"20px", transformOrigin:"left", opacity:0 }, { y:"0px", duration:1,opacity:1 }, "<50%")
+  }, [])
   return (
     <div className="">
       <div className=" relative w-[100vw] lg:h-[100vh] h-[80vh]">
@@ -12,13 +18,13 @@ export default function Gallery() {
         />
         <div className=" absolute top-0 p-8 flex items-end justify-center right-0 left-0 bottom-0 bg-gradient-to-t from-black to-transparent ">
           <div className=" text-white space-y-4 lg:w-[60%] text-center">
-            <span className=" font-medium text-slate-400 uppercase">
+            <span className=" font-medium text-slate-400 uppercase small-heading">
               our best work
             </span>
-            <h1 className=" font-bold md:text-5xl space-x-1 text-3xl flex items-center justify-center uppercase">
+            <h1 className=" font-bold md:text-5xl big-heading space-x-1 text-3xl flex items-center justify-center uppercase">
               OUR GALLERY
             </h1>
-            <p className=" text-sm font-medium ">
+            <p className=" text-sm font-medium description ">
               Capture the essence of every moment with our premier photography
               studio. At OMM Studios, we specialize in creating stunning visual
               narratives that preserve your cherished memories forever. Our team

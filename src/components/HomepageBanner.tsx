@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -6,8 +6,15 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { bannerImages } from "@/libs/Data";
+import { gsap } from "gsap";
 
 export default function HomepageBanner() {
+  useEffect(() => {
+    gsap.fromTo(".small-heading", { y:"20px", transformOrigin:"left", opacity:0 }, { y:"0px", duration:1,opacity:1 })
+    gsap.fromTo(".big-heading", { y:"20px", transformOrigin:"left", opacity:0 }, { y:"0px", duration:1,opacity:1 }, "<50%")
+    gsap.fromTo(".description", { y:"20px", transformOrigin:"left", opacity:0 }, { y:"0px", duration:1,opacity:1 }, "<50%")
+  }, [])
+  
   return (
     <div className=" ">
       <Swiper
@@ -28,10 +35,10 @@ export default function HomepageBanner() {
             />
             <div className=" absolute top-0 p-8 flex items-end justify-center right-0 left-0 bottom-0 bg-gradient-to-t from-black to-transparent ">
               <div className=" text-white space-y-4 md:w-[60%] text-center">
-                <h6 className=" font-medium text-slate-400">
+                <h6 className=" font-medium text-slate-400 small-heading">
                   PHOTOGRAPHY & FILM MAKING
                 </h6>
-                <h1 className=" font-bold md:text-5xl space-x-1 text-3xl flex items-center justify-center">
+                <h1 className=" font-bold md:text-5xl big-heading space-x-1 text-3xl flex items-center justify-center">
                   <img
                     src="/icon.png"
                     alt=""
@@ -39,7 +46,7 @@ export default function HomepageBanner() {
                   />{" "}
                   <span className="">MM PICTURES</span>
                 </h1>
-                <p className=" text-sm font-medium ">
+                <p className=" text-sm font-medium description ">
                   Capture the essence of every moment with our premier
                   photography studio. At OMM Studios, we specialize in creating
                   stunning visual narratives that preserve your cherished

@@ -1,7 +1,11 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
 export default function SectionThree() {
+
   return (
     <div className="min-h-[70vh] grid lg:grid-cols-2 ">
         <div className=" col-span-1 bg-[#333] flex p-12 md:justify-start justify-center items-center">
