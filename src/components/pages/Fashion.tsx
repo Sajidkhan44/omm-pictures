@@ -2,6 +2,7 @@ import { babyshoot, fashion, work } from "@/libs/Data";
 import { dancing } from "@/pages";
 import { gsap } from "gsap";
 import React, { useEffect } from "react";
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 
 export default function Fashion() {
   useEffect(() => {
@@ -131,12 +132,18 @@ export default function Fashion() {
               Modelling STILL'S
             </h1>
           </div>
-          <div className=" w-full grid lg:grid-cols-2 gap-6 py-12">
-            {fashion.map((item) => (
+          <div className=" w-full  py-12 relative">
+            <ResponsiveMasonry columnsCountBreakPoints={{ 300: 1, 500: 1, 700: 4, 900: 5, 1980:5 }}>
+          <Masonry columnsCount={5} gutter="15px">
+          {fashion.map((item) => (
               <div className=" max-w-full rounded-[20px] overflow-hidden max-h-full">
                 <img src={item.src} alt="" className="" />
               </div>
             ))}
+            </Masonry>
+            </ResponsiveMasonry>
+            <div className=" absolute top-0 lg:flex hidden  py-12  items-end right-0 bottom-0 left-0 bg-gradient-to-t from-black  to-transparent"></div>
+
           </div>
         </div>
       </div>

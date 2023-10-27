@@ -147,7 +147,7 @@ export default function Birthdays() {
               Birthday and babyshoot STILL'S
             </h1>
           </div>
-          <div className=" w-full grid lg:grid-cols-2 grid-cols-1 gap-6 py-12">
+          <div className=" w-full grid lg:grid-cols-3 grid-cols-1 gap-6 py-12">
             {babyshoot.map((item) => (
               <div className=" max-w-full rounded-[20px] overflow-hidden max-h-full">
                 <img src={item.src} alt="" className="" />

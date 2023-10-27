@@ -24,6 +24,8 @@
     "next": "13.4.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-measure": "^2.5.2",
+    "react-responsive-masonry": "^2.1.7",
     "swiper": "^10.0.4",
     "typescript": "5.1.6"
   },

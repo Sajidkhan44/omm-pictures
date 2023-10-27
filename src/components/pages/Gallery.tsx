@@ -46,8 +46,8 @@ export default function Gallery() {
           </div>
         </div>
       </div>
-      <div className="w-[90%] mx-auto flex flex-col py-[100px] ">
-        <div className=" grid lg:grid-cols-2 gap-6">
+      <div className="w-[84%] mx-auto flex flex-col py-[100px] ">
+        <div className=" grid lg:grid-cols-5 gap-4">
             {
                 weddingStills.map(still => (
                     <div className="max-w-full">

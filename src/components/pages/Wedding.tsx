@@ -28,14 +28,14 @@ export default function Wedding() {
             <div className=" absolute top-0 p-8 flex items-end justify-center right-0 left-0 bottom-0 bg-gradient-to-t from-black to-transparent ">
                   <div className=" text-white space-y-4 lg:w-[60%] text-center">
                     <h6 className=" font-medium text-slate-400 small-heading">PHOTOGRAPHY & FILM MAKING</h6>
-                    <h1 className=" font-bold md:text-5xl space-x-1 big-heading text-3xl flex items-center justify-center">{work[0].title}</h1>
+                    <h1 className=" font-bold md:text-5xl space-x-1 big-heading text-3xl flex items-center justify-center">{work[0].title} </h1>
                     <p className=" text-sm font-medium description ">Capture the essence of every moment with our premier photography studio. At OMM Studios, we specialize in creating stunning visual narratives that preserve your cherished memories forever. Our team of highly skilled photographers and state-of-the-art equipment ensure that every image we capture is a true masterpiece.</p>
                   </div>
                 </div>
         </div>
         <div className="py-[100px]  space-y-12 lg:w-[90%] px-8 mx-auto ">
         <div className=" space-y-2 text-white  text-center">
-            <h1 className={` font-semibold md:text-5xl text-3xl ${dancing.className}`}>WEDDING'S</h1>
+            <h1 className={` font-semibold md:text-5xl text-3xl ${dancing.className}`}>WEDDING'S & PRE-WEDDINGS</h1>
         </div>
         <div className=" w-full grid lg:grid-cols-2 grid-cols-1 gap-6 md:py-12">
             <div className=" col-span-1  flex  justify-center">
@@ -65,7 +65,7 @@ export default function Wedding() {
        <div className=" space-y-2 text-white  text-center">
             <h1 className={` font-semibold md:text-5xl text-3xl uppercase ${dancing.className}`}>Wedding STILL'S</h1>
         </div>
-        <div className=" w-full grid lg:grid-cols-2 gap-6 py-12">
+        <div className=" w-full grid lg:grid-cols-3 gap-6 py-12">
             {
                 weddingStills.map(item => (
                     <div className=" max-w-full rounded-[20px] overflow-hidden max-h-full">

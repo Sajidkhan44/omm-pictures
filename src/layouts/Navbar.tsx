@@ -36,7 +36,7 @@ export const Links = [
   },
   {
     link: "Contact",
-    href: "/contact",
+    href: "#contact",
   },
 ];
 

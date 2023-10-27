@@ -7,7 +7,7 @@ export const bannerImages = [
 
 export const work = [
     {
-        title:"WEDDING PHOTOGRAPHY",
+        title:"WEDDING & PRE-WEDDINGS PHOTOGRAPHY",
         href:"/wedding",
         src:"/website/Wedding/w-1.jpg",
         description:"OMM Pictures is a reputable photography studio that specializes in capturing the joy, significance, and cherished moments of naming ceremonies. With their expertise, creativity, and attention to detail, OMM Pictures ensures that every important aspect of your naming ceremony is beautifully documented, preserving the essence of this special occasion for a lifetime."
@@ -44,72 +44,68 @@ export const work = [
     },
     
 ]
-
-export const grid=[
+export const grid = [
     {
-        col:[
-            {
-                src:"/website/Maternity/m-1.jpg",
-            },
-            {
-                src:"/website/Maternity/w-2.jpg",
-            },
-            {
-                src:"/website/Maternity/w-3.jpg",
-            },
-            {
-                src:"/website/Maternity/w-4.jpg",
-            },
-            {
-                src:"/website/Maternity/w-5.jpg",
-            },
-    
-        ],
+        src: "/website/Maternity/m-1.jpg",
     },
     {
-        col:[
-            {
-                src:"/website/Babyshoot/b-1.jpg",
-            },
-            {
-                src:"/website/Babyshoot/b-2.jpg",
-            },
-            {
-                src:"/website/Babyshoot/b-3.jpg",
-            },
-            {
-                src:"/website/Babyshoot/b-4.jpg",
-            },
-            {
-                src:"/website/Babyshoot/b-6.jpg",
-            },
+        src: "/website/Babyshoot/b-1.jpg",
+    },
     
-        ],
+    {
+        src: "/website/Babyshoot/b-13.jpg",
     },
     {
-        col:[
-            {
-                src:"/website/Prewedding/w-1.jpg",
-            },
-            {
-                src:"/website/Prewedding/w-2.jpg",
-            },
-            {
-                src:"/website/Prewedding/w-3.jpg",
-                scale:true
-            },
-            {
-                src:"/website/Prewedding/w-4.jpg",
-            },
-            {
-                src:"/website/Prewedding/w-5.jpg",
-            },
-    
-        ],
+        src: "/website/Prewedding/w-2.jpg",
     },
-   
+    
+    
+    {
+        src: "/website/Prewedding/w-3.jpg",
+    },
+    {
+        src: "/website/Babyshoot/b-10.jpg",
+    },
+    {
+        src: "/website/Babyshoot/b-11.jpg",
+    },
+    
+    
+    {
+        src: "/website/Prewedding/w-1.jpg",
+    },
+    
+    {
+        src: "/website/Maternity/w-4.jpg",
+    },
+    
+    {
+        src: "/website/Maternity/w-5.jpg",
+    },
+    
+    
+    {
+        src: "/website/Babyshoot/b-2.jpg",
+    },
+    
+    {
+        src: "/website/Babyshoot/b-4.jpg",
+    },
+    {
+        src: "/website/Babyshoot/b-6.jpg",
+    },
+    
+    {
+        src: "/website/gallery/g-41.jpg",
+    },
+    {
+        src: "/website/gallery/g-42.jpg",
+    },
+    
+    
     
 ]
+
 
 export const weddingStills = [
     {
@@ -129,6 +125,17 @@ export const weddingStills = [
     },
     {
         src:"/website/Wedding/w-5.jpg",
+    },
+    {
+        src: "/website/Prewedding/w-2.jpg",
+    },
+    
+    
+    {
+        src: "/website/Prewedding/w-3.jpg",
+    },
+    {
+        src: "/website/Prewedding/w-1.jpg",
     },
 
 ]
@@ -152,6 +159,8 @@ export const maternity = [
     {
         src:"/website/Maternity/w-5.jpg",
     },
+    
+    
 
 ]
 
@@ -174,6 +183,7 @@ export const babyshoot = [
     {
         src:"/website/Babyshoot/b-13.jpg",
     },
+    
 
 ]
 
@@ -197,6 +207,24 @@ export const fashion = [
         src:"/website/Model/m-4.jpg",
     },
     {
+        src: "/website/Babyshoot/b-2.jpg",
+    },
+    
+    {
+        src: "/website/Babyshoot/b-4.jpg",
+    },
+    {
+        src: "/website/Babyshoot/b-6.jpg",
+    },
+    
+    {
+        src: "/website/gallery/g-41.jpg",
+    },
+    {
+        src: "/website/gallery/g-42.jpg",
+    },
+    
+    {
         src:"/website/Fashion/f-4.jpg",
     },
     {
@@ -208,10 +236,14 @@ export const fashion = [
     {
         src:"/website/Model/m-10.jpg",
     },
+    
 
 ]
 
 export const gallery = [
+    {
+        src:"/website/Babyshoot/b-10.jpg",
+    },
     {
         src:"/website/gallery/g-41.jpg",
     },

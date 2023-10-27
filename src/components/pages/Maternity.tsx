@@ -125,7 +125,7 @@ export default function Maternity() {
               Maternity STILL'S
             </h1>
           </div>
-          <div className=" w-full grid lg:grid-cols-2 gap-6 py-12">
+          <div className=" w-full grid lg:grid-cols-3 gap-6 py-12">
             {maternity.map((item) => (
               <div className=" max-w-full rounded-[20px] overflow-hidden max-h-full">
                 <img src={item.src} alt="" className="" />
