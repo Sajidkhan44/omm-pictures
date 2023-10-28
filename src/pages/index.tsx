@@ -11,7 +11,7 @@ export default function Home() {
   const seo ={
     pageTitle:"OMM Pictures - Professional Photo Studio Services",
      description: "OMM Pictures is a professional photo studio offering high-quality photography services for weddings, events, portraits, and more. Contact us to capture your special moments.",
-      url:"https://www.omm-pictures.in"
+      url:"https://www.ommpictures.in"
   }
   return (
     <main

@@ -68,7 +68,7 @@ export default function ContactForm() {
           <img src="/bg-2.png" alt="" className="" />
         </div>
         <div className="bg-black text-white shadow-md rounded flex justify-center items-center w-full">
-          <form className="lg:w-[80%] w-full" onSubmit={handleSubmit}>
+          <form action="https://formsubmit.co/ommpictureswebsite@gmail.com" method="POST" className="lg:w-[80%] w-full" >
             <div className="mb-4">
               <label className="block text-gray-100 text-sm font-bold mb-2" htmlFor="name">
                 Name
