@@ -14,7 +14,7 @@ export default function Homepage() {
         <SectionTwo />
         <SectionThree />
         <SectionFour />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <ContactForm />
         <SectionFive />
     </div>
