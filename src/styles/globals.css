@@ -16,3 +16,10 @@ body{
     max-height:500px;
     transition: max-height 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+.swiper-pagination {
+    color: white; /* Set the pagination text color to white */
+  }
+  
+  .swiper-pagination-bullet {
+    background: blue; /* Set the pagination bullet color to blue */
+  }

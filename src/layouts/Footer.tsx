@@ -55,9 +55,9 @@ export default function Footer() {
             <p className=" my-auto">© OMM Pictures, Inc. All rights reserved. Licensing.</p>
           </div>
           <div className=" flex col-span-1 items-center md:justify-start justify-center gap-4">
-            <img src="/twitter.svg" alt="" className=" w-[30px] " />
-            <img src="/instagram.svg" alt="" className=" w-[30px] " />
-            <img src="/facebook.svg" alt="" className=" w-[30px] " />
+            {/* <img src="/twitter.svg" alt="" className=" w-[30px] " /> */}
+           <Link target="_blank" href={`https://instagram.com/omm_pictures?igshid=MzRlODBiNWFlZA==`}><img src="/instagram.svg" alt="" className=" w-[30px] " /></Link> 
+        <Link target="_blank" href={`https://youtube.com/channel/UCReRuR7qb_QkUGKUlJHbJTA`}>   <img src="/you-2.svg" alt="" className="  h-[40px] " /></Link> 
           </div>
         </div>
       </div>

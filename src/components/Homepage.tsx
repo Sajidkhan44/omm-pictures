@@ -5,6 +5,7 @@ import SectionThree from './SectionThree'
 import SectionFour from './SectionFour'
 import SectionFive from './SectionFive'
 import ContactForm from './ContactForm'
+import Testimonials from './Testimonials'
 
 export default function Homepage() {
   return (
@@ -13,6 +14,7 @@ export default function Homepage() {
         <SectionTwo />
         <SectionThree />
         <SectionFour />
+        <Testimonials />
         <ContactForm />
         <SectionFive />
     </div>

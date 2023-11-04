@@ -32,7 +32,7 @@ export const Links = [
   },
   {
     link: "About",
-    href: "/contact",
+    href: "/about",
   },
   {
     link: "Contact",
@@ -108,10 +108,10 @@ export default function Navbar() {
           )}
           <Link
             className=" px-6 py-3 rounded-full font-semibold border-2 hover:underline border-white text-white"
-            href=""
+            href={"tel:8904260662"}
           >
             <FontAwesomeIcon icon={faPhone} className="mr-1" />
-            +91-7022766423
+            +91-8904260662
           </Link>
         </div>
         <div className="lg:hidden   flex items-center justify-center gap-4">
