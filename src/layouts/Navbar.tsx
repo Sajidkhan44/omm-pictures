@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { faChevronDown, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Popover, Transition } from "@headlessui/react";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown, faPhone } from "@fortawesome/free-solid-svg-icons";
+import React, { useEffect, useState } from "react";
 
 export const Links = [
   {
@@ -115,7 +115,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="lg:hidden   flex items-center justify-center gap-4">
-         
+
 
             <div onClick={() => setShowSidebar(!showSidebar)} className=" flex flex-col items-center justify-center gap-[2px]  min-h-[40px] min-w-[40px] max-h-[40px] max-w-[40px] bg-white rounded-full">
               <div className={`w-[20px] transition-all duration-300 ease-linear ${showSidebar ? " rotate-45 translate-y-1.5 " : " "} h-[3px] bg-black `}></div>
@@ -154,13 +154,13 @@ export default function Navbar() {
           )}
           <Link
             className=" px-6 py-3 w-[max-content] mx-auto block md:text-4xl text-xl font-medium rounded-full  border-2 hover:underline border-white text-white"
-            href=""
+             href={"tel:8904260662"}
           >
             <FontAwesomeIcon icon={faPhone} className="mr-1" />
-            +91-7022766423
+            +91-8904260662
           </Link>
         </div>
     </div>
-    
+
   );
 }
